@@ -10,3 +10,4 @@ bigger = cv2.resize(image, (1050, 1610))
 stretch_near = cv2.resize(image, (780, 540), interpolation = cv2.INTER_NEAREST)
 
 Titles =["Original", "Half", "Bigger", "Interpolation Nearest"]
+images =[image, half, bigger, stretch_near]
