@@ -13,3 +13,4 @@ Titles =["Original", "Half", "Bigger", "Interpolation Nearest"]
 images =[image, half, bigger, stretch_near]
 
 count = 4
+for i in range(count):
