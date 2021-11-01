@@ -5,12 +5,13 @@ import os
 # creating main window
 root = tkinter.Tk()
 
-#loading the image
+#load
 img = ImageTk.PhotoImage(Image.open("cars.jpg"))
 
-# reading the image
+# read
 panel = tkinter.Label(root, image = img)
 
 # setting the application
 panel.pack(side = "top", fill = "both", expand = "yes")
 
+root.mainloop()
