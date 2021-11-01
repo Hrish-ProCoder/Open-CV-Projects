@@ -10,3 +10,7 @@ img = ImageTk.PhotoImage(Image.open("cars.jpg"))
 
 # reading the image
 panel = tkinter.Label(root, image = img)
+
+# setting the application
+panel.pack(side = "top", fill = "both", expand = "yes")
+
