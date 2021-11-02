@@ -10,3 +10,5 @@ img = ImageTk.PhotoImage(Image.open("car.jpg"))
 
 # Image Parameter
 canvas.create_image(135, 20, anchor = NW, image = img) 
+
+root.mainloop() 
