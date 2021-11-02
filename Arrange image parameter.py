@@ -4,3 +4,5 @@ root = tkinter.Tk()
 
 canvas = tkinter.Canvas(root, width = 500, height = 250)
 canvas.pack() 
+
+img = ImageTk.PhotoImage(Image.open("car.jpg"))  
