@@ -8,4 +8,6 @@ canvas.pack()
 
 img = ImageTk.PhotoImage(Image.open("cars.jpg"))
 
+canvas.create_image(135, 20, anchor = NW, image = img) 
+
 root.mainloop()
