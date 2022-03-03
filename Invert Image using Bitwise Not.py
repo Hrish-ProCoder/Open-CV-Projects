@@ -5,3 +5,4 @@ inverted_image = cv2.bitwise_not(image)
 cv2.imwrite("inverted.jpg", inverted)
 
 cv2.imshow("Original Image",image)
+cv2.imshow("Inverted Image",inverted_image)
