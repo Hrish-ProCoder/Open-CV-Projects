@@ -5,3 +5,6 @@ avging = cv2.blur(img,(20,20))
 
 cv2.imshow('Averaging',avging)
 cv2.waitKey(0)
+
+# Median blurring
+medBlur = cv2.medianBlur(img,5)
