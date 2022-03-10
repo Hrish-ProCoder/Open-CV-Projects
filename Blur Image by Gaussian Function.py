@@ -2,4 +2,6 @@ import cv2
 
 img = cv2.imread('smartwatch.jpg')
 
-avging = cv2.blur(img,(12,12))
+aveging = cv2.blur(img,(12,12))
+
+cv2.imshow('Averaging',aveging)
