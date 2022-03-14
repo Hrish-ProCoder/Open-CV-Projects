@@ -15,3 +15,5 @@ gray_image = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
 #Show the image
 cv2.imshow('Original Image', img)
+
+cv2.imshow('New Image', gray_image)
