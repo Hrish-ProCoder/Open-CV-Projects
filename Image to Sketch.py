@@ -9,3 +9,6 @@ filename = "smartwatch.jpg"
 
 #Read in the image
 img = cv2.imread(img_location + filename)
+
+# Convert the image to gray scale
+gray_image = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
