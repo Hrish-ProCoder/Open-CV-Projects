@@ -13,6 +13,9 @@ img = cv2.imread(img_location + filename)
 # Convert the image to gray scale
 gray_image = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
+# Invert the image
+inverted_gray_image = 255 - gray_image
+
 #Show the image
 cv2.imshow('Original Image', img)
 cv2.imshow('New Image', gray_image)
