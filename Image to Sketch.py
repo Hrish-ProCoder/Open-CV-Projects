@@ -27,10 +27,10 @@ pencil_sketch_img = cv2.divide(gray_image, inverted_blurred_image, scale = 256.0
 
 #Show the image
 cv2.imshow('Original Image', img)
-cv2.imshow('New Image', gray_image)
-cv2.imshow('New Image', inverted_gray_image)
-cv2.imshow('New Image', blurred_image)
-cv2.imshow('New Image', inverted_blurred_image)
+cv2.imshow('New Image_g', gray_image)
+cv2.imshow('New Image_ig', inverted_gray_image)
+cv2.imshow('New Image_bi', blurred_image)
+cv2.imshow('New Image_ibi', inverted_blurred_image)
 
 
 cv2.waitKey(0)
