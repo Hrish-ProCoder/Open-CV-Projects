@@ -22,7 +22,8 @@ blurred_image = cv2.GaussianBlur(inverted_gray_image, (21,21), 0)
 # Invert blur image
 inverted_blurred_image = 255 - blurred_image
 
-#
+# Create the pencil sketch image
+pencil_sketch_img = cv2.divide(gray_image, inverted_blurred_image, scale = 256.0)
 
 #Show the image
 cv2.imshow('Original Image', img)
