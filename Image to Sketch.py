@@ -31,6 +31,6 @@ cv2.imshow('New Image_g', gray_image)
 cv2.imshow('New Image_ig', inverted_gray_image)
 cv2.imshow('New Image_bi', blurred_image)
 cv2.imshow('New Image_ibi', inverted_blurred_image)
-
+cv2.imshow('New Image_finale', pencil_sketch_img)
 
 cv2.waitKey(0)
