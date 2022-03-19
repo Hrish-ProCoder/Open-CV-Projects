@@ -23,5 +23,6 @@ blurred_image = cv2.GaussianBlur(inverted_gray_image, (21,21), 0)
 cv2.imshow('Original Image', img)
 cv2.imshow('New Image', gray_image)
 cv2.imshow('New Image', inverted_gray_image)
+cv2.imshow('New Image', blurred_image)
 
 cv2.waitKey(0)
