@@ -29,7 +29,7 @@ cv2.imshow('Original Image', img)
 cv2.imshow('New Image', gray_image)
 cv2.imshow('New Image', inverted_gray_image)
 cv2.imshow('New Image', blurred_image)
-
+cv2.imshow('New Image', inverted_blurred_image)
 
 
 cv2.waitKey(0)
