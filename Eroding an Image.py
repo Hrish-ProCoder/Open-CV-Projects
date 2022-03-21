@@ -9,3 +9,5 @@ image = cv2.imread(dest)
 
 # Window name in which Image is displayed
 window_name = 'Image'
+
+kernel = np.ones((5, 5), np.uint8)
