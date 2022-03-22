@@ -7,4 +7,4 @@ image = cv2.imread(dest)
 
 window_name = 'Image'
 
-kernel = np.ones((6, 6), np.uint8)
+kernel = np.ones((5, 5), np.uint8)
