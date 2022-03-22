@@ -6,3 +6,5 @@ dest = r'C:\Download\watch.jpg'
 image = cv2.imread(dest)
 
 window_name = 'Image'
+
+kernel = np.ones((6, 6), np.uint8)
