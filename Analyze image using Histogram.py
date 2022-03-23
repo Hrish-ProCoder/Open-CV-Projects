@@ -7,3 +7,5 @@ cv2.calcHist(images, channels, mask, histSize, ranges[, hist[, accumulate]])
 
 
 img = cv2.imread('smrt.jpg',0)
+
+histg = cv2.calcHist([img],[0],None,[256],[0,256])
