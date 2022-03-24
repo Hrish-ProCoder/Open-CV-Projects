@@ -16,3 +16,5 @@ plt.show()
 import cv2
 from matplotlib import pyplot as plt
 img = cv2.imread('ex.jpg',0)
+
+plt.hist(img.ravel(),256,[0,256])
