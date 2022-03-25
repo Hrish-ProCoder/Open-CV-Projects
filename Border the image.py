@@ -5,3 +5,4 @@ image = cv2.imread(path)
 window_name = 'Image'
  
 # Using cv2.copyMakeBorder() method
+image = cv2.copyMakeBorder(image, 10, 10, 10, 10, cv2.BORDER_CONSTANT, None, value = 0)
