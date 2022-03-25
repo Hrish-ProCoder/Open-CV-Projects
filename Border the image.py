@@ -11,3 +11,5 @@ cv2.imshow(window_name, image)
 
 
 # 2nd Method
+
+image = cv2.copyMakeBorder(image, 100, 100, 50, 50, cv2.BORDER_REFLECT)
