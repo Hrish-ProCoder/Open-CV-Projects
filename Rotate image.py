@@ -11,3 +11,5 @@ image = cv2.rotate(src, cv2.cv2.ROTATE_90_CLOCKWISE)
 
 cv2.imshow(window_name, image)
 cv2.waitKey(0)
+
+# rotate by 180 degrees clockwise
