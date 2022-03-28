@@ -17,3 +17,5 @@ import cv2
 dest = r'C:\Users\HK\Download\watch.jpg'
 src = cv2.imread(dest)
 window_name = 'Image'
+cv2.imshow(window_name, image)
+cv2.waitKey(0)
