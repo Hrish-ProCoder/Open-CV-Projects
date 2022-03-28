@@ -26,3 +26,4 @@ import cv2
 dest = r'C:\Users\HK\Download\watch.jpg'
 src = cv2.imread(dest)
 window_name = 'Image'
+image = cv2.rotate(src, cv2.ROTATE_90_COUNTERCLOCKWISE)
